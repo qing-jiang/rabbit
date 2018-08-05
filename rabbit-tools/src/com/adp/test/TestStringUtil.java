@@ -9,6 +9,11 @@ import java.time.LocalDateTime;
  */
 public class TestStringUtil {
 
+
+    public void test(){
+        
+    }
+
     public static void main(String[] args) {
         String str = "1991-12-23 12:12:12";
         LocalDateTime ldt = StringUtil.strToDate(str);
