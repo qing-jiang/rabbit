@@ -1,6 +1,5 @@
 package com.adp.str;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -9,7 +8,7 @@ import java.time.format.DateTimeFormatter;
  */
 public class StringUtil {
 
-    public static final String DATA_FORMAT = "";
+    public static final String DATA_FORMAT = "yyyy-MM-dd HH:mm:ss";//24 小时制
     public static final DateTimeFormatter  dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss");
 
     public static String dateToStr(LocalDateTime date) {
